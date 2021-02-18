@@ -61,7 +61,7 @@ void loop() {
     Serial.print (dhtSensor.convertCtoF(temperatura));    // Função da Biblioteca - Converte graus Celsius para Fahrenheit
     Serial.print F("ºF"); Serial.print F(" Sensação Térmica de: "); Serial.print(senTermicaC); Serial.println F("ºC");
 
-    delay(10000);   // Atualiza a leitura do monitor serial a cada 2 segundos.
+    delay(10000);   // Atualiza a leitura do monitor serial a cada 10 segundos.
 
   }// Fim da estrutura condicional
 
